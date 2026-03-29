@@ -2,7 +2,7 @@
 import { Image } from "astro:assets";
 import svgl from "../../public/svgl.png";
 import stockin from "../../public/stockin.png";
-import moviesfordevs from "../../public/moviesfordevs.png";
+import InventoryAPI from "../../public/InventoryAPI.png";
 import velez from "../../public/velez.png";
 
 interface Project {
@@ -15,10 +15,11 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "MoviesForDevs",
-    image: moviesfordevs as ImageMetadata,
-    link: "https://github.com/gothsec/MoviesForDevs",
-    preview: "https://movies-for-devs.vercel.app",
+    title: "Inventory management API",
+    image: InventoryAPI as ImageMetadata,
+    link: "https://sistemainventariosimple-production.up.railway.app/swagger-ui/index.html",
+    preview:
+      "https://sistemainventariosimple-production.up.railway.app/swagger-ui/index.html",
     status: "Deployed",
   },
   {
